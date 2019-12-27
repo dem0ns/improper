@@ -8,7 +8,7 @@ Enter the following command：(Laravel version:5.8.*)
 docker-compose up -d
 ```
 
-Visit `http://your-ip:8000` and you'll see the default page of ThinkPHP.
+Visit `http://your-ip:8000` and you'll see the default page of Laravel.
 
 ## POC
 
