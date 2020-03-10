@@ -4,9 +4,7 @@
 ## Usage
 ```
 # Download project
-wget https://github.com/nic329/webapp-misconfig-docker/master.zip -O wmd.zip
-unzip wmd.zip
-cd wmd
+git clone --depth=1 https://github.com/nic329/webapp-misconfig-docker.git
 
 # Enter the directory of vulnerability/environment
 cd laravel/5_debug
