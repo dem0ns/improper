@@ -1,10 +1,10 @@
-# WrongConfiguration
+# improper
 
 
 ## Usage
 ```
 # Download project
-git clone --depth=1 https://github.com/dem0ns/WrongConfiguration.git
+git clone --depth=1 https://github.com/dem0ns/improper.git
 
 # Enter the directory of vulnerability/environment
 cd laravel/5_debug
