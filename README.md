@@ -1,17 +1,16 @@
 # improper
 
-
 ## Usage
 ```
 # Download project
-git clone --depth=1 https://github.com/dem0ns/improper.git
+git clone https://github.com/dem0ns/improper.git
 
-# Enter the directory of vulnerability/environment
+# Enter one of the environment. Example:
 cd laravel/5_debug
 
-# Compile environment
+# Compile (Or skip to next step)
 docker-compose build
 
-# Run environment
+# Run
 docker-compose up -d
 ```
