@@ -1,5 +1,4 @@
-# Redis without password authenicate
-
+# Redis without password authentication
 
 ## Run
 docekr-compose up 
