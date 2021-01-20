@@ -8,7 +8,7 @@ RUN docker-php-source extract \
     && docker-php-ext-install zip \
     && docker-php-source delete
 WORKDIR /var/www/html/
-RUN composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/ && \
-    composer global require laravel/installer \
+RUN composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/ \
+    && composer global require laravel/installer \
     && composer create-project --prefer-dist laravel/laravel laravel "5.8.*"
 RUN chown -R www-data:www-data laravel
