@@ -1,5 +1,15 @@
 services:
-  web:
-    build: .
+  nginx:
+    image: nginx
     ports:
-      - "8000"
+      - "80"
+    volumes:
+      - ./conf.d:/etc/nginx/conf.d/
+    volumes_from:
+      - fpm
+    links:
+      - fpm
+  fpm:
+    build: .
+    volumes:
+      - /var/www/html/laravel
