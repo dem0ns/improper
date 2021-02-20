@@ -1,16 +1,17 @@
 # improper
-一些由于运维/开发人员配置不当造成的漏洞。（当然也有框架自身设计缺陷）
+
+一些由于运维/开发人员配置不当造成的漏洞，有些是框架自身设计缺陷导致的。
+
+这些问题往往被忽视，且不易被发现。
 
 ## Usage
+
 ```
 # Download
-git clone https://github.com/dem0ns/improper.git
+git clone https://github.com/dem0ns/improper.git --depth=1
 
-# Enter the environment. Example:
+# Select
 cd laravel/5_debug
-
-# Compile (Or skip to the next step)
-docker-compose build
 
 # Run
 docker-compose up -d
